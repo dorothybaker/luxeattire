@@ -22,8 +22,8 @@ export async function POST(req) {
       adjustable_quantity: { enabled: false },
       quantity: item?.quantity,
     })),
-    success_url: `http://localhost:3000/success`,
-    cancel_url: `http://localhost:3000/cart`,
+    success_url: `https://luxeattire.vercel.app/success`,
+    cancel_url: `https://luxeattire.vercel.app/cart`,
   };
 
   const session = await stripe.checkout.sessions.create(params);
