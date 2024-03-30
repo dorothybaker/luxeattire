@@ -1,7 +1,7 @@
 function NewsLetter() {
   return (
     <div className="max-w-7xl mx-auto w-full py-4">
-      <div className="flex flex-col gap-3 justify-center items-center bg-white w-max h-[250px] px-3 mx-auto md:w-[600px]">
+      <div className="flex flex-col gap-3 justify-center items-center bg-white h-[250px] px-3 mx-auto md:w-[600px] sm:w-[500px] w-[95%]">
         <div className="text-center">
           <h1 className="text-3xl font-medium">Subscribe Newsletter</h1>
           <span className="text-gray-500">
